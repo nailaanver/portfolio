@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+img {
+    width: 100%;
+}
+header{
+    background-color: #000000;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    background-color: rgba(215, 215, 215, 1);
+}
+
+.menu-items {
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    /* justify-content: right; */
+    gap: 43px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.main-nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgba(11, 11, 11, 1);
+    gap: 20px;
+    padding-right: 30px;
+}
+.menu-items li a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bookbtn {
+    border-radius: 28px;
+    /* max-width: 147px; */
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5px 5px;
+}
+.logo {
+    max-width: 59.67px;
+}
+.second-nav{
+    gap: 20px;
+    padding-right: 30px;
+}
+.nav-in{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+/* .pic {
+    max-width: 783px;
+    max-height: 500px;
+    background-color: rgba(0, 0, 0, 1);
+} */
+.nav-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.introduce-text{
+    font-family: 'Raleway';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.introduce-text h3{
+    font-size: 40px;
+    display: flex;
+    
+}
+.introduce-text h1{
+    font-size: 50px;
+}
+.introduce-text p{
+    font-size: 25px;
+    color: rgba(144, 144, 144, 1);
+}
+.icons img{
+    max-width: 38.4px;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+.para{
+    max-width: 1148px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+}
+.itberries h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+#itberries{
+    background: linear-gradient( #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+}
+/* .nav-below{
+    background-color: #C4C4C4;
+} */
