@@ -256,10 +256,10 @@ body{
     /* display: flex; */
     /* justify-content: center; */
 }
-.skill-in h4{
+/* .skill-in h4{
     margin-left: 30px;
     padding-top: 30px;
-}
+} */
  .skill-icons p{
     color: #000000;
     padding-top: 10px;
@@ -345,6 +345,7 @@ body{
 }
 .pictures-in img{
     max-width: 640px;
+    height: 100%;
 }
 .pictures-row1{
     display: flex;
@@ -365,32 +366,47 @@ body{
     background: url(./assets/pic-2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 640px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
 }
 .text-in-pic p{
     color: #FFFFFF;
     font-size: 10px;
-    padding-top: 8px;
-
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .text-in-pic h2{
     color: #FFFFFF;
     padding-top: 8px;
 }
 .btn-class{
+    display: flex;
+    gap: 20px;
+}
+.demo{
+    border: 3px solid;
     border-top-style: none;
     border-bottom-style: none;
-    border-left-color: white;
-    border-right-color: white;
-    padding-right: 10px;
-    padding-left: 10px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
     color: white;
     background-color: none;
-    padding-top: 20px;
+}
+.more{
+    border: 3px solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    color: white;
+    background-color: none;
+}
+.demo a{
+    text-decoration: none;
+    color: white;
+}
+.more a{
+    text-decoration: none;
+    color: white;
 }
 #contact {
     padding-top: 100px;
@@ -431,6 +447,10 @@ body{
     border-top-style: none;
     border-right-style: none;
     background-color: rgba(215, 215, 215, 1);
+}
+.textarea-in{
+    padding-left: 7px;
+    padding-bottom: 40px;
 }
 .main-form button{
     border: 3px solid;
@@ -473,4 +493,8 @@ footer {
 .input-in{
     padding-left: 7px;
     padding-bottom: 4px;
+}
+
+.pictures-row1 div {
+    flex-basis: calc(100%/3);
 }
