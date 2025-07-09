@@ -14,6 +14,7 @@ header{
     background-position: right;
     background-size: 50%;
 }
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -21,6 +22,16 @@ header{
 body{
     background-color: rgba(215, 215, 215, 1);
 }
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+} */
 
 .menu-items {
     display: flex;
@@ -118,6 +129,9 @@ body{
 }
 #itberries{
     background: linear-gradient( #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    /* background-image: url(./assets/logo-itberri.png); */
+    background-repeat: no-repeat;
+    background-position: right;
 }
 /* .nav-below{
     background-color: #C4C4C4;
@@ -381,6 +395,7 @@ body{
 .btn-class{
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .demo{
     border: 3px solid;
@@ -497,4 +512,21 @@ footer {
 
 .pictures-row1 div {
     flex-basis: calc(100%/3);
+}
+
+
+/* media queries  */
+
+@media screen and (max-width: 380px) {
+
+    #about {
+        padding-top: 20px;
+    }
+}
+input:focus{
+    outline: none;
+}
+.submit-btn {
+    display: flex;
+    justify-content: center;
 }
